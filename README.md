@@ -1,8 +1,8 @@
-Sure! Here's a README template for a Selenium project repository with a similar style to the profile:
+Great! Here is the updated README template with the provided image at the beginning:
 
 ```markdown
 <!-- Banner Image -->
-[![Project Banner](https://your-banner-image-url.com/banner.jpg)]
+<img src="/mnt/data/1522791807219.jpg" alt="Selenium Logo" style="width:100%;">
 
 <h1 align="center">Selenium Testing Project</h1>
 <h3 align="center">Automating Web Testing with Selenium</h3>
@@ -115,7 +115,4 @@ Contributions are what make the open-source community such an amazing place to l
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" />
   </a>
 </p>
-
 ```
-
-Replace placeholder URLs and names with your actual project details. This template follows the same style as your profile to keep everything consistent and visually appealing.
