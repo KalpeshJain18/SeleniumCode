@@ -1,6 +1,6 @@
 Great! Here is the updated README template with the provided image at the beginning:
 
-```markdown
+markdown
 <!-- Banner Image -->
 <img src="/mnt/data/1522791807219.jpg" alt="Selenium Logo" style="width:100%;">
 
