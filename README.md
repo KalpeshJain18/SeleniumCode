@@ -6,8 +6,6 @@
 This repository contains an **End-to-End (E2E) testing framework** using [Microsoft Playwright](https://playwright.dev/).  
 Playwright allows **cross-browser, cross-platform, and headless/headed** testing for modern web applications.  
 
-![Playwright Browsers](https://playwright.dev/img/browsers.png)  
-
 ---
 
 ## 🚀 Features  
