@@ -125,6 +125,8 @@ public class LoginTest {
     { "name": "webkit", "use": { "browserName": "webkit" } }
   ]
 }
+
+
 📊 Test Reports & Tracing
 1. Run tests with trace enabled:
 npx playwright test --trace on
