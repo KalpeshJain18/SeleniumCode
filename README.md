@@ -51,14 +51,14 @@ playwright-e2e-testing/
 Make sure **Node.js** (v16+) is installed.  
 
 ### 1️⃣ Clone the Repository  
-git clone https://github.com/yourusername/playwright-e2e-testing.git
+git clone https://github.com/KalpeshJain18/TestAutomationFrameworks
 cd playwright-e2e-testing
 
 📦 Installation
 Make sure Node.js (v16+) is installed.
 
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/playwright-e2e-testing.git
+git clone https://github.com/KalpeshJain18/TestAutomationFrameworks
 cd playwright-e2e-testing
 
 2️⃣ Install Dependencies
