@@ -1,118 +1,188 @@
-Great! Here is the updated README template with the provided image at the beginning:
+# 🎭 Playwright for End-to-End Testing with Java
 
-markdown
-<!-- Banner Image -->
-<img src="/mnt/data/1522791807219.jpg" alt="Selenium Logo" style="width:100%;">
+![Playwright Logo](https://playwright.dev/img/playwright-logo.svg)  
 
-<h1 align="center">Selenium Testing Project</h1>
-<h3 align="center">Automating Web Testing with Selenium</h3>
+## 📖 Introduction  
+This repository contains an **End-to-End (E2E) testing framework** using [Microsoft Playwright](https://playwright.dev/).  
+Playwright allows **cross-browser, cross-platform, and headless/headed** testing for modern web applications.  
 
-<!-- Project Description -->
-<p align="center">
-  <img align="center" alt="Selenium" width="400" src="https://www.selenium.dev/images/selenium_logo_square_green.png">
-</p>
+![Playwright Browsers](https://playwright.dev/img/browsers.png)  
 
-<p align="center">
-  This repository contains various web automation testing scripts using Selenium. It covers test cases for different web applications, focusing on best practices in automation testing.
-</p>
+---
 
-<!-- Table of Contents -->
-## Table of Contents
-- [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Running the Tests](#running-the-tests)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [Contact](#contact)
+## 🚀 Features  
+✅ **Cross-Browser Testing** (Chromium, Firefox, WebKit)  
+✅ **Headless & Headed Mode Execution**  
+✅ **Parallel Execution**  
+✅ **Page Object Model (POM) Implementation**  
+✅ **API Testing Support**  
+✅ **Visual & Accessibility Testing**  
+✅ **CI/CD Integration (GitHub Actions, Jenkins)**  
 
-<!-- Getting Started -->
-## Getting Started
+---
 
-To get a local copy up and running, follow these simple steps.
+## 🛠️ Tech Stack  
+- **Language:** JavaScript / TypeScript  
+- **Test Runner:** Playwright Test  
+- **Assertions:** Built-in Playwright Assertions  
+- **Reporting:** Allure / HTML Reports  
+- **CI/CD:** GitHub Actions, Jenkins  
+- **Parallel Execution & Tracing**  
 
-### Prerequisites
+---
 
-- Java Development Kit (JDK) 8 or above
-- Maven
-- Selenium WebDriver
-- A web browser (e.g., Chrome, Firefox)
-- ChromeDriver or GeckoDriver (for Firefox)
+## 📂 Project Structure  
+playwright-e2e-testing/
+│-- tests/                    # Test Scripts
+│   ├── login.test.js          # Sample Login Test
+│   ├── search.test.js         # Sample Search Test
+│-- pages/                     # Page Object Model (POM)
+│   ├── loginPage.js           # Login Page Elements & Actions
+│   ├── searchPage.js          # Search Page Elements & Actions
+│-- utils/                     # Utility Functions
+│   ├── helpers.js             # Common Functions
+│-- test-results/              # Test Reports
+│-- playwright.config.js       # Playwright Configuration
+│-- package.json               # Dependencies & Scripts
+│-- README.md                  # Project Documentation
 
-### Installation
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/YourUsername/selenium-testing-project.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd selenium-testing-project
-   ```
-3. Install the dependencies:
-   ```sh
-   mvn clean install
-   ```
+---
 
-### Running the Tests
+## 📦 Installation  
+Make sure **Node.js** (v16+) is installed.  
 
-To execute the test cases, use the following Maven command:
-```sh
-mvn test
-```
+### 1️⃣ Clone the Repository  
+git clone https://github.com/yourusername/playwright-e2e-testing.git
+cd playwright-e2e-testing
 
-<!-- Project Structure -->
-## Project Structure
+📦 Installation
+Make sure Node.js (v16+) is installed.
 
-```plaintext
-selenium-testing-project/
-├── src/
-│   ├── main/
-│   └── test/
-│       ├── java/
-│       │   └── com/
-│       │       └── yourusername/
-│       │           └── tests/
-│       │               └── SampleTest.java
-│       └── resources/
-├── pom.xml
-└── README.md
-```
+1️⃣ Clone the Repository
+git clone https://github.com/yourusername/playwright-e2e-testing.git
+cd playwright-e2e-testing
 
-- **src/main/**: Contains the main source code (if any).
-- **src/test/**: Contains the test scripts.
-- **pom.xml**: Maven configuration file.
+2️⃣ Install Dependencies
+npm install
 
-<!-- Contributing -->
-## Contributing
+3️⃣ Run Tests
+npx playwright test
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Run Tests in Headed Mode
+npx playwright test --headed
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Run Tests in a Specific Browser
+npx playwright test --browser=firefox
 
-<!-- Contact -->
-## Contact
+Run Tests with UI Report
+npx playwright show-report
 
-- **Kalpesh Jain**
-- Email: jainkalpesh597@gmail.com
-- LinkedIn: [kalpeshnjain09](https://linkedin.com/in/kalpeshnjain09)
+📝 Sample Test Script (src/test/LoginTest.java)
 
-<p align="left">
-  <a href="https://linkedin.com/in/kalpeshnjain09" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
-  <a href="https://fb.com/kalpesh jain" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" />
-  </a>
-  <a href="https://instagram.com/kalpeshjain_09" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
-  </a>
-  <a href="https://www.hackerrank.com/kalpesh jain" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" />
-  </a>
-</p>
-```
+import com.microsoft.playwright.*;
+import org.junit.jupiter.api.*;
+
+public class LoginTest {
+    private static Playwright playwright;
+    private static Browser browser;
+    private static Page page;
+
+    @BeforeAll
+    static void setup() {
+        playwright = Playwright.create();
+        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+        page = browser.newPage();
+    }
+
+    @Test
+    void loginTest() {
+        page.navigate("https://example.com/login");
+        page.fill("#username", "testuser");
+        page.fill("#password", "securepassword");
+        page.click("button[type='submit']");
+        Assertions.assertTrue(page.url().contains("/dashboard"));
+    }
+
+    @AfterAll
+    static void teardown() {
+        browser.close();
+        playwright.close();
+    }
+}
+
+⚙️ Playwright Configuration (playwright.config.json)
+{
+  "use": {
+    "headless": true,
+    "screenshot": "only-on-failure",
+    "video": "retain-on-failure",
+    "trace": "on-first-retry"
+  },
+  "projects": [
+    { "name": "chromium", "use": { "browserName": "chromium" } },
+    { "name": "firefox", "use": { "browserName": "firefox" } },
+    { "name": "webkit", "use": { "browserName": "webkit" } }
+  ]
+}
+📊 Test Reports & Tracing
+1. Run tests with trace enabled:
+npx playwright test --trace on
+
+2. Open Test Report UI:
+npx playwright show-report
+
+🤖 CI/CD Integration
+GitHub Actions Workflow (.github/workflows/playwright-java.yml)
+name: Playwright Tests (Java)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+
+      - name: Install Dependencies
+        run: mvn clean install
+
+      - name: Run Playwright Tests
+        run: mvn test
+
+      - name: Upload Test Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-report
+          path: target/surefire-reports/
+
+📖 Documentation & Resources
+Playwright for Java Official Docs
+Maven Dependency for Playwright
+JUnit 5 Documentation
+Allure Reports for Playwright
+
+💡 Contribution
+Feel free to fork this repository and submit pull requests with improvements or additional test cases!
+
+📜 License
+This project is licensed under the MIT License.
+
+🚀 Happy Testing with Playwright & Java! 🎭
+![Playwright Logo](https://playwright.dev/img/playwright-logo.svg)
+
+
+
+
+
+
