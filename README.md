@@ -22,7 +22,7 @@ Playwright allows **cross-browser, cross-platform, and headless/headed** testing
 ---
 
 ## 🛠️ Tech Stack  
-- **Language:** JavaScript / TypeScript  
+- **Language:** Java  
 - **Test Runner:** Playwright Test  
 - **Assertions:** Built-in Playwright Assertions  
 - **Reporting:** Allure / HTML Reports  
